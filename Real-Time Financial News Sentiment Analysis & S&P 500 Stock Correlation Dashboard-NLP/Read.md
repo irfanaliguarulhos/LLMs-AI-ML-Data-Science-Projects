@@ -76,7 +76,7 @@ This interactive dashboard aims to bridge the gap between breaking financial new
 ├── SPY_news_data.csv
 ├── SPY_news_sentiment.csv
 └── SPY_merged_data.csv
-````
+``````
 
 ## ⚙️ Setup and Installation
 
@@ -114,7 +114,6 @@ Follow these steps to set up and run the project locally:
 5.  **Run the Dashboard:**
     ```bash
     python market_pulse_dashboard.py
-    ```
 
 6.  **Access the Dashboard:**
     Open your web browser and navigate to `http://127.0.0.1:8050` (or the address provided in the terminal). The initial data loading and model training might take a minute or two the first time.
