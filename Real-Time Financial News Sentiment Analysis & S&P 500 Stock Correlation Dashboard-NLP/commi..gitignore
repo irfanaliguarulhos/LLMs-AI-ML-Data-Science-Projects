@@ -1,0 +1,37 @@
+# .gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+*.venv
+
+# IDE / OS files
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
+
+# Secrets / Sensitive Config
+.env
+*.log # Optional: ignore log files
+
+# Generated Data Files (Optional - uncomment if you don't want to commit generated CSVs)
+# *.csv
+SPY_stock_prices.csv
+SPY_news_data.csv
+SPY_news_sentiment.csv
+SPY_merged_data.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# TensorFlow/Keras logs (if generated)
+logs/
+

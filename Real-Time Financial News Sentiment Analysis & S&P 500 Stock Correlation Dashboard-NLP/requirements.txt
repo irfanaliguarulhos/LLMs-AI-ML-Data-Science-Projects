@@ -1,0 +1,15 @@
+# requirements.txt
+
+pandas>=1.5.0,<2.0.0
+numpy>=1.23.0
+yfinance>=0.2.10
+newsapi-python>=0.2.7
+transformers>=4.25.0,<4.40.0 # Pinning minor version for stability
+torch>=2.0.0,<2.2.0 # Check compatibility with your transformers/tf version
+tensorflow>=2.12.0,<2.14.0 # Ensure compatibility with Keras/Transformers
+keras>=2.12.0,<2.14.0 # Use tf.keras, but specify for clarity if needed
+scikit-learn>=1.2.0
+plotly>=5.10.0
+dash>=2.8.0
+dash-loading-spinners>=1.0.0
+python-dotenv>=1.0.0 # For loading API keys from .env
